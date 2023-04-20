@@ -1,0 +1,42 @@
+.bg-grey {
+  background-color: #f1f0f6;
+}
+
+.photo {
+  /* max-height:60vh; */
+  object-fit: cover;
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icons {
+  font-size: 16pt;
+}
+
+.progress {
+  height: 4px;
+}
+
+.right-menu-icons > a {
+  margin-bottom: 1.5rem;
+}
+
+.right-menu-icons > a > i {
+  background-color: #f0f0f6;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.right-menu-icons > a > i:hover {
+  background-color: orange;
+  color: black !important;
+}
+
+.card-group > .col > .card {
+  max-height: 300px;
+  height: 100%;
+}
